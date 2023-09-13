@@ -1,0 +1,35 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  flex-direction: column;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  border-color: #0030fa;
+  background-color: #E8E8E8;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+h1{
+  position: absolute;
+  top: 5%;
+  font-family: 'Poppins';
+  font-size: 32px;
+  color: #0030fa;
+}
+
+.horizontal-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-content:flex-start;
+}
