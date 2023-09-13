@@ -21,15 +21,25 @@ body {
 }
 
 h1{
-  position: absolute;
-  top: 5%;
+  /* position: absolute;
+  top: 5%; */
   font-family: 'Poppins';
   font-size: 32px;
   color: #0030fa;
 }
 
+
+p{
+  font-family: 'Poppins';
+  font-size: 18px;
+  color: #0030fa;
+}
 .horizontal-wrapper{
+  width: 20%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content:flex-start;
 }
